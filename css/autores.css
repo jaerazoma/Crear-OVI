@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    
+}
+
+body { font-family: 'Open Sans', sans-serif; background: #F0B429;  }  
+
+
+h1, h2, h3, h4, h5, h6 {font-family: 'Yanone Kaffeesatz', sans-serif; letter-spacing: 1.5px;}
+
+/*---------------Contenedor: Contiene toda la pagina---------------*/
+
+#contenedor {
+    background: #ffffff;
+    width: 1000px;  /*---------------Ancho de contenedor---------------*/
+    height: 890px; /*---------------Alto de contenedor---------------*/
+    margin: 0.2em auto;
+    padding: 0.2em;
+    border-radius: 0.5em;
+}
+
+/*---------------Cabecera---------------*/
+
+#cabecera {
+    background: #005883;
+    height: 60px;    
+    border-radius: 0.5em;
+    margin: 0.1em auto;
+}
+
+/*------------------------------Contenido: Contiene el contenido de la Pag---------------*/
+
+#contenido {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contenido {
+height: 760px;
+background: #FFFFFF;
+margin: 0.1em auto;
+border-radius: 0.5em;
+}
+
+#info-autores {
+    height: 760px;
+    width: 1000px;
+    background: #005883;
+    border-radius: 0.5em;
+    margin: 0.1em;
+    text-align: center;
+}
+
+/*---------------Fotos---------------*/
+
+#img-erazo {
+    width: 160px;
+    border-radius: 50%;  
+}
+
+/*---------------letra---------------*/
+
+#info-autores p {
+    background: #ffffff;
+}
+
+#info-autores li
+{
+    height: 40px;
+    width: 120px;
+    list-style: none; 
+}
+
+/*---------------Icono y enlace regresar-------------*/
+#boton {
+    height: 60px;
+    background: #FFFFFF;
+    margin: 0.1em;
+    border-radius: 0.3em;
+}
+
+#botones {  
+    background: #FFFFFF;
+    height: 50px;
+    border-radius: 0.3em;
+    margin:0.3em;
+    text-align: center;
+}
+
+.icon-volver  {
+    font-size: 40px;
+    margin: 0.2em;
+    float:left;
+}
+
+.icon-arriba {
+    font-size: 40px;
+    margin: 0.2em;
+    float:right;
+}

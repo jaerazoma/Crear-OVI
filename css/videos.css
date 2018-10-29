@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    
+}
+
+body { font-family: 'Open Sans', sans-serif; background: #F47920;  }  
+
+
+h1, h2, h3, h4, h5, h6 {font-family: 'Yanone Kaffeesatz', sans-serif; letter-spacing: 1.5px;}
+
+/*---------------Contenedor: Contiene toda la pagina---------------*/
+
+#contenedor {
+    background: #ffffff;
+    width: 800px;  /*---------------Ancho de contenedor---------------*/
+    height: 1000px; /*---------------Alto de contenedor---------------*/
+    margin: 0.2em auto;
+    padding: 0.2em;
+    border-radius: 0.5em;
+}
+
+/*---------------Cabecera---------------*/
+
+#cabecera {
+    width: 800px;
+    background: #28a0a0;
+    height: 60px;    
+    border-radius: 0.5em;
+    margin: 0.1em auto;
+}
+
+/*------------------------------Lecturas---------------*/
+
+#contenido {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contenido {
+height: 850px;
+width: 800px;
+background: #005883;
+margin: 0.1em auto;
+border-radius: 0.3em;
+}
+
+#lectura2 {
+    height: 850px;
+    width: 800px;
+    background: #7c3862;
+    border-radius: 0.3em;
+    margin: 0.1em;
+    text-align: center;
+    
+}
+
+/*------------------------------Imagenes---------------*/
+
+#lectura2 img {
+    height: 2    00px;
+    border-radius: 0.2em;
+  
+}
+/*------------------------------Botones---------------*/
+
+#boton {
+    background: #FFFFFF;
+    margin: 0.1em;
+    border-radius: 0.3em;
+}
+
+#botones {  
+    background: #FFFFFF;
+    height: 50px;
+    border-radius: 0.3em;
+    margin:0.3em;
+    text-align: center;
+}
+
+.icon-volver  {
+    font-size: 40px;
+    margin: 0.2em;
+    float:left;
+}
+
+.icon-arriba {
+    font-size: 40px;
+    margin: 0.2em;
+    float:right;
+}
